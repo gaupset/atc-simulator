@@ -1,0 +1,14 @@
+# http://editorconfig.org
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_style = tab
+charset = utf-8
+
+# Specific overrides for file types that previously had a 2-space indent size
+[*.{html,haml,css,less,scss,jsx,js,json,ts,tsx,yml,yaml,.eslintrc}]
+indent_style = tab
