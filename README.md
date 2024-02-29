@@ -2,6 +2,8 @@
 
 (Currently) small project to show proficiency in various web technologies. This project aims to provide a (simple) simulator for crisis management for air traffic controllers. ATC Simulator is based around the premise of giving commands to planes through a modern web UI isntead of voice communication.
 
+![](https://i.ibb.co/wJPry8K/image.png)
+
 ## 🚀 Features
 
 Currently, the simulator supports basic aircraft operations such as turning, changing altitude and holding patterns. Future planned functionality include:
