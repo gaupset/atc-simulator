@@ -27,8 +27,8 @@ Currently, the simulator supports basic aircraft operations such as turning, cha
 ```bash
 git clone https://github.com/gaupset/atc-simulator.git
 cd atc-simulator
-docker-compose build
-docker-compose up
+docker compose build
+docker compose up
 ```
 
 2. Go to [http://localhost:3000](http://localhost:3000)
