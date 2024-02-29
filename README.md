@@ -1,10 +1,10 @@
 # ATC Simulator 🛫
 
-(Currently) small project to show proficiency in various web technologies. This project aims to provide a (simple) simulator for crisis management for air traffic controllers.
+(Currently) small project to show proficiency in various web technologies. This project aims to provide a (simple) simulator for crisis management for air traffic controllers. ATC Simulator is based around the premise of giving commands to planes through a modern web UI isntead of voice communication.
 
 ## 🚀 Features
 
-Currently, the simulator supports basic aircraft operations such as flying, turning, and executing holding patterns. Future planned functionality include:
+Currently, the simulator supports basic aircraft operations such as turning, changing altitude and holding patterns. Future planned functionality include:
 
 - Maps with panning and zoom 🗺️
 - Aircraft landing and takeoff 🛬🛫
@@ -29,5 +29,6 @@ docker-compose build
 docker-compose up
 ```
 
-2. Reduce zoom level
-3. Refresh
+2. Go to [http://localhost:3000](http://localhost:3000)
+3. Reduce zoom level
+4. Refresh

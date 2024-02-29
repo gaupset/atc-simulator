@@ -165,7 +165,7 @@ export function drawPlane(plane: Plane, p5: any, pixels: PixelsTypes, geo: GeoTy
     plane.prevpos.forEach(prevpos => {
       const prevpixels = posToPixels(prevpos.x,prevpos.y,pixels,geo)
       p5.fill(255)
-      p5.circle(prevpixels[0],prevpixels[1],0.60);
+      p5.circle(prevpixels[0],prevpixels[1],1);
     });
   }
   

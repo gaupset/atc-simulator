@@ -201,9 +201,9 @@ export class Plane {
     const altitudeDifference = this.taltitude - this.altitude;
     const speedDifference = this.tspeed - this.speed;
 
-    const maxHeadingChange = 2* 3 * deltaTime; // 180 degrees per minute
-    const maxAltitudeChange = 10 * 33.33 * deltaTime; // 2000 feet per minute
-    const maxSpeedChange = 5 * 5 * deltaTime; // 5 m/s^2
+    const maxHeadingChange = 1* 3 * deltaTime; // 180 degrees per minute
+    const maxAltitudeChange = 2 * 33.33 * deltaTime; // 2000 feet per minute
+    const maxSpeedChange = 2 * 5 * deltaTime; // 5 m/s^2
 
     this.heading += Math.sign(headingDifference) * Math.min(Math.abs(headingDifference), maxHeadingChange);
     this.heading = this.heading % 360
