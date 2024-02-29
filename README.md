@@ -20,7 +20,7 @@ Currently, the simulator supports basic aircraft operations such as flying, turn
 
 ## 📦 Setup
 
-ATC Simulator does not support Firefox.
+1. Clone repo and run with docker
 
 ```bash
 git clone https://github.com/gaupset/atc-simulator.git
@@ -28,3 +28,6 @@ cd atc-simulator
 docker-compose build
 docker-compose up
 ```
+
+2. Reduce zoom level
+3. Refresh

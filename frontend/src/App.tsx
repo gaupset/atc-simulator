@@ -38,11 +38,10 @@ function App() {
     new Plane(1, 40000, 8000, "ABC123", "1500", 90, 30000, 250, 90, 30000, 250, 1),
     //new Plane(2, 40000, 16000, "G-ABCD", "2160", 270, 32500, 350, 270, 32500, 350, 1),
     //new Plane(3, 40000, 24000, "EJ1234", "1500", 180, 31999, 650,180, 31999, 650, 2),
-    //new Plane(4, 40000, 32000, "GOFAST", "7700", 180, 37000, 600, 90, 30000, 600, 1),
     //new Plane(5, 40000, 36000, "YEEET", "1500", 180, 31999, 650,180, 31999, 650, 2),
-    //new Plane(6, 40000, 40000, "15ZOOM", "1500", 180, 20000, 600, 90, 30000, 600, 1),
+    new Plane(6, 80000, 40000, "15ZOOM", "1500", 240, 20000, 600, 90, 30000, 600, 1),
     new Plane(7, 40000, 44000, "12RAPIDO", "1500", 180, 31999, 650,180, 31999, 650, 2),
-    new Plane(8, 40000, 90000, "78SCHNELL", "1500", 20, 20000, 600, 20, 30000, 1200, 1)
+    new Plane(8, 40000, 90000, "78GOFAST", "1500", 20, 20000, 600, 20, 30000, 1200, 1)
   ])
 
   const [airports, setAirports] = useState<Airport[]>([
@@ -73,6 +72,8 @@ function App() {
   const framerate = 5;
   const updateInterval = 1000 / framerate; // Interval in milliseconds
   const speedUp = 5; // Factor to speed up or slow down the simulation
+
+  
 
   useEffect(() => {
     if (selectedPlane !== null) {
